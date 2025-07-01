@@ -1,0 +1,34 @@
+# =====================================
+# 🍳 KADX Recipe RAG - Python 의존성
+# =====================================
+
+# 웹 프레임워크
+fastapi==0.115.14
+uvicorn[standard]==0.34.3
+
+# AI/ML 라이브러리  
+langchain==0.3.16
+langchain-core==0.3.25
+langchain-upstage==0.2.6
+langchain-pinecone==0.2.1
+
+# 벡터 데이터베이스
+pinecone==5.9.1
+
+# 데이터 처리
+pandas==2.3.0
+numpy==2.2.6
+
+# 환경 변수
+python-dotenv==1.1.1
+
+# HTTP 요청 (테스트용)
+requests==2.32.4
+
+# 기타 유틸리티
+pydantic==2.11.7
+typing-extensions==4.14.0
+
+# 선택적 의존성 (성능 향상)
+# uvloop==0.19.0  # Linux/Mac 전용
+# gunicorn==21.2.0  # 배포시 사용

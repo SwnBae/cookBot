@@ -1,0 +1,87 @@
+# =====================================
+# 🍳 KADX Recipe RAG - Git 무시 파일
+# =====================================
+
+# 환경 변수 (절대 커밋 금지!)
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 가상환경
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 로그 파일
+*.log
+logs/
+log/
+
+# 임시 파일
+*.tmp
+*.temp
+temp/
+
+# 테스트
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 데이터 파일 (필요시 주석 해제)
+# *.csv
+# data/
+# *.json
+
+# 배포 관련
+.vercel
+.fly/
+
+# 캐시
+.cache/
